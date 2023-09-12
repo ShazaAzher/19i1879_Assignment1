@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="80pt"
+        android:layout_height="132dp"
+        android:layout_gravity="center"
+        android:paddingTop="15dp"
+        android:src="@drawable/main_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:paddingTop="15dp"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:hint="Enter Name"
+        android:drawablePadding="20dp"
+        android:inputType = "textPersonName"
+        android:id="@+id/name"
+        android:background="@drawable/text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:paddingTop="5dp"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:hint="Enter email"
+        android:drawablePadding="20dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/email"
+        android:background="@drawable/text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Number"
+        android:paddingTop="5dp"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:hint="Enter contact number"
+        android:drawablePadding="20dp"
+        android:inputType="phone"
+        android:id="@+id/contact"
+        android:background="@drawable/text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country"
+        android:paddingTop="5dp"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:hint="Select Country"
+        android:drawablePadding="20dp"
+        android:inputType="phone"
+        android:id="@+id/country"
+        android:background="@drawable/text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City"
+        android:paddingTop="5dp"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:hint="Select City"
+        android:drawablePadding="20dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/city"
+        android:background="@drawable/text"/>
+
+    <Button
+        android:onClick="clickmeFunc3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:backgroundTint="#f28500"
+        android:layout_margin="20dp"
+        android:text="Sign Up"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Log In"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:textColor="#6B6A6C"
+        android:textSize="15dp"
+        android:fontFamily = "sans-serif-medium" />
+
+</LinearLayout>

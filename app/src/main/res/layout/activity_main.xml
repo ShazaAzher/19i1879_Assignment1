@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:src="@drawable/main_logo"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:paddingTop="20dp"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:paddingTop="20dp"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:hint="Enter email"
+        android:drawablePadding="20dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/email"
+        android:background="@drawable/text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:paddingTop="20dp"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter password"
+        android:padding="10dp"
+        android:backgroundTint="#D1C9C9"
+        android:id="@+id/password_toggle"
+        android:inputType="textPassword"
+        android:background="@drawable/text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot your password?"
+        android:layout_gravity="right"
+        android:textColor="#F28500"
+        android:paddingTop="20dp"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"
+        android:paddingRight="20dp"/>
+
+    <Button
+        android:onClick="clickmeFunc3"
+        android:background="@drawable/button"
+        android:backgroundTint="#f28500"
+        android:layout_margin="20dp"
+        android:text="Login"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="90dp"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textColor="#6B6A6C"
+        android:textSize="20dp"
+        android:fontFamily = "sans-serif-medium" />
+
+</LinearLayout>

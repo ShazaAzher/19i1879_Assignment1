@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">i191879</string>
+    <string-array name="Countries">
+        <item>Pakistan</item>
+        <item>India</item>
+        <item>Bangladesh</item>
+        <item>US</item>
+        <item>Europe</item>
+        <item>Australia</item>
+        <item>UK</item>
+    </string-array>
+</resources>
+
